@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'rubygems'
 
-get '/' do
-  erb :index
+get '/models' do
+	erb :models
 end
